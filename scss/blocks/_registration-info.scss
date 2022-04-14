@@ -1,0 +1,44 @@
+.registration-info{
+ width: 652px;
+ margin-top: 44px;
+}
+
+.registration-info__title{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+}
+
+.registration-info__text{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 21px;
+}
+
+.registration-info__list{
+    margin: 0;
+    list-style: none;
+}
+
+.registration-info__item{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    position: relative;
+    right: -25px;
+    margin-bottom: 16px;
+}
+
+.registration-info__item:before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 5px;
+    left: -25px;
+    background-image: url(../img/registration/Vector.svg);
+    background-size: 15px 15px;
+  }
